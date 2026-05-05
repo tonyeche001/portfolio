@@ -1,0 +1,572 @@
+
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Luther</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.php">Tony.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.php" class="home-link">Tony.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            I am Tony, <br>
+                            a full-stack <br>
+                            web developer <br> 
+                            based in Nigeria. <br>
+                            
+                        </h1>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="#0">Behance</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Dribbble</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="btn btn--primary">
+                    More About Me
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="project upload/tony.jpeg" 
+                             srcset="project upload/tony.jpeg 1x, project upload/tony.jpeg@2x.jpeg 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12" style="padding:50px;">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                I am a web development student specializing in PhP, MYSQL, and Frontend design.
+                                currently, i am building practical systems like school portals and dashboard interface to 
+                                improve student data management.
+                            </p>
+                            <div class="s-about__buttons">
+                                <a href="mailto:tonyjoseph1127@gmail.com" class="btn btn--primary" >Hire Me</a>
+                            <a href="my-cv.pdf" class="btn btn--stroke">Download CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-display-1">Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Full Stack Web Development</li>
+                            <li>PHP & MYSQL</li>
+                            <li>UI Design</li>
+                            <li>Responsive UI Design</li>
+                            <li>Data Management</li>
+                            <li>Boostrap Framework</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Freelance Web Developer</h3>
+                                    <h5 class="timeline__meta">Role:Full Stack Student Project</h5>
+                                    <p class="timeline__timeframe">January 2026 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Developed a custom School Management System using PHP, MYSQL.
+                                        Built features ffor student registration,automated database entry,
+                                        and free tracking
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Personal Portfolio Project</h4>
+                                    <h5 class="timeline__meta">Frontend & Backend Integration</h5>
+                                    <p class="timeline__timeframe">January 2026 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Integrated dynamic database content into a Bootstrap-based 
+                                        responsive template, focusing on SQL query optimization and UI positioning.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Kaduna Polytechnic</h3>
+                                    <h5 class="timeline__meta">Degree:HND Holder in Estate Management</h5>
+                                    <p class="timeline__timeframe">October 2025</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>currently focusing on database management systems(DBMS), PHP server-side logic, and 
+                                        responsive web design.</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Smart Web Development School</h4>
+                                    <h5 class="timeline__meta">Web Design & Development</h5>
+                                    <p class="timeline__timeframe">January 2026 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Engage in self-led learning focused on modern web design priciples,
+                                        UI/UX layouts, and mastering frontend tools to create professional websites.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <?php
+                            include('connect.php');
+                            $result=mysqli_query($conn,"SELECT * FROM projects ORDER BY id DESC");
+                            while($row=mysqli_fetch_assoc($result)) { ?>
+                            <li class="folio-list__item column" data-animate-el >
+                                <a class="folio__list-item-link" href="#modal-<?php echo $row['id']; ?>">
+                                
+                                    <div class="folio-list__item-pic">
+                                        <img src="project upload/<?php echo $row['image']; ?>" style="width:60%; height:auto;display:block" alt="project image">
+                                    </div>
+                                    <div class="folio-list__item-text" style="margin-top:120px;position:relative;">
+                                        <div class="folio-list__item-cat" style="color:#999;">
+                                            Website Project
+                                        </div>
+                                        <h4 class="folio-list__item-title" style="color:#fff;">
+                                            <?php echo $row['title']; ?>
+                                        </h4>
+                                    </div>
+                                </a>
+                            </li>
+                           <?php } ?>
+                            
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-fuji.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Retro Camera</h5>
+                                <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Branding</li>
+                                    <li>Product Design</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-lamp.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>The White Lamp</h5>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Branding</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-rucksack.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Rucksuck</h5>
+                                <p>Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Product Design</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Since Day One</h5>
+                                <p>Dolores velit qui quos nobis. Aliquam delectus voluptas quos possimus non voluptatem voluptas voluptas. Est doloribus eligendi porro doloribus voluptatum.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Website</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Sand Dunes</h5>
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Illustration</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Minimalismo</h5>
+                                <p>Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Branding</li>
+                                    <li>Product Design</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+
+
+                <div class="row testimonials">
+                    <div class="column lg-12" data-animate-block>
+        
+                        <div class="swiper-container testimonial-slider" data-animate-el>
+        
+                            <div class="swiper-wrapper">
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="project upload/teacher.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Sunday Ember</strong>
+                                            <span>Web Development Instructor</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                    "[Tony] is a dedicated student who has shown great skills in integrating PHP backends
+                                    with MYSQL databases for complex school portal projects."
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="project upload/bro.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Sunday Joseph</strong>
+                                            <span>client</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                    "Tony delevered exactly what we needed for our data management. He took our manual record and 
+                                    built a fast,secure SQL database system that is easy to use. His communication skills througout
+                                    the development process was professional and clear. I highly recomend him for any full-staack web project."
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="project upload/emma.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Emmanuel Orjih</strong>
+                                            <span>Friend</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                   "Working with Tony on web projects is always a great experience.He has a sharp eye for details 
+                                    and is excellent at troubleshooting complex SQL database connections.He doesn't just build websites;
+                                    he makes sure they actually works efficiently"
+                                    </p>
+                                </div> <!-- end testimonial-slider__slide -->
+        
+                                
+            
+                            </div> <!-- end swiper-wrapper -->
+        
+                            <div class="swiper-pagination"></div>
+        
+                        </div> <!-- end swiper-container -->
+        
+                    </div> <!-- end column -->
+                </div> <!-- end row testimonials -->
+
+            </section> <!-- end s-works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-display">
+                            I am always open to discussing new web projects, creative ideas, or oppurtunities to be part of your visions.
+                            
+                        </h2>
+
+                        <p class="lead">
+                            Whether you have a technical question or just want to chat about PHP, SQL, & Database management-shoot 
+                            me a message.
+
+                        
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:sayhello@tonyjoseph1127@gmail.com" class="mailtoui">sayhello@Tony.com</a> <br>
+                            <a href="tel:09165736668">09165736668</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://wa.me/2349165736668">Whatapp</a></li>
+                            <li><a href="https://www.facebook.com/share/1DrRp92MtA/?mibextid=wwXIfr">Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/in/anthony-joseph-626827396">LinkedIn</a></li>
+                            <li><a href="#0">Instagram</a></li>
+                            <li><a href="#0">Github</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:sayhello@tonyjoseph1127@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Tony 2026</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <?php
+    $result_modals=mysqli_query($conn,"SELECT * FROM projects ORDER BY id DESC");
+    while($modal=mysqli_fetch_assoc($result_modals)) { ?>
+    <div id="modal-<?php echo $modal['id']; ?>" class="modal-popup mfp-hide">
+        <div class="modal-settings__content">
+            <div class="modal-settings__image">
+                <img src="project upload/<?php echo $modal['image'];?>" alt="">
+
+            </div>
+            <div class="modal-settings__text">
+                <h3><?php echo $modal['title']; ?></h3>
+                <p>This is a full-stack project using PHP and MYSQL. It features a dynamic dashboard
+                    and a responsive frontend
+                </p>
+                <ul class="modal-settings__details">
+                    <li><strong>category:</strong></li>
+                    <a href="#">Visit Site</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+   <?php } ?>   
+</body>
+</html>
