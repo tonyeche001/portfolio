@@ -272,28 +272,37 @@
     
                         <ul class="folio-list row block-lg-one-half block-stack-on-1000">
 
-                            <?php
-                            include('connect.php');
-                            $result=mysqli_query($conn,"SELECT * FROM projects ORDER BY id DESC");
-                            while($row=mysqli_fetch_assoc($result)) { ?>
-                            <li class="folio-list__item column" data-animate-el >
-                                <a class="folio__list-item-link" href="#modal-<?php echo $row['id']; ?>">
-                                
-                                    <div class="folio-list__item-pic">
-                                        <img src="project upload/<?php echo $row['image']; ?>" style="width:60%; height:auto;display:block" alt="project image">
+                           <li class="folio-list_item column" data-animate-el>
+                            <a class="folio-list_item_link" href="#">
+                                <div class="folio-list_item-pic">
+                                    <img drc="project upload/college1.jpeg">
+                                </div>
+                                <div class="folio-list_item-text">
+                                    <div class="folio-list_item-cat" style="color:#999;">
+                                        Website Project
                                     </div>
-                                    <div class="folio-list__item-text" style="margin-top:120px;position:relative;">
-                                        <div class="folio-list__item-cat" style="color:#999;">
-                                            Website Project
-                                        </div>
-                                        <h4 class="folio-list__item-title" style="color:#fff;">
-                                            <?php echo $row['title']; ?>
-                                        </h4>
+                                    <h4 class="folio-list_item-title" style="color:#fff;">
+                                        College Website
+                                    </h4>
+                                </div>
+                            </a>
+                           </li>
+
+                           <li class="folio-list_item column" data-animate-el>
+                            <a class="folio-list_item_link" href="#">
+                                <div class="folio-list_item-pic">
+                                    <img drc="project upload/college_project.jpeg">
+                                </div>
+                                <div class="folio-list_item-text">
+                                    <div class="folio-list_item-cat" style="color:#999;">
+                                        Website Project
                                     </div>
-                                </a>
-                            </li>
-                           <?php } ?>
-                            
+                                    <h4 class="folio-list_item-title" style="color:#fff;">
+                                        College School Portal
+                                    </h4>
+                                </div>
+                            </a>
+                           </li>
 
                         </ul> <!-- end folio-list -->
 
